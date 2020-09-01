@@ -66,7 +66,7 @@ describe("User can navigate the app", () => {
     });
 
     it("does not display My Projects header", () => {
-      cy.get("#projects-header").shoud("not.exist");
+      cy.get("#projects-header").should("not.exist");
     });
   });
 });
