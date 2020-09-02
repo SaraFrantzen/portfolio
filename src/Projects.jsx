@@ -1,18 +1,20 @@
-import React, { Component } from "react";
+
 import axios from "axios";
 import ProjectCard from "./ProjectCard";
+import React, { Component } from "react";
 
 class Projects extends Component {
   state = {
     projects: [],
   };
+       
 
   componentDidMount() {
-    axios.get("./src/data/projects.json").then((response) => {
+    axios.get('./src/data/projects.json').then(response => {
       this.setState({
         projects: response.data,
-      });
-    });
+      })
+    })
   }
 
   render() {

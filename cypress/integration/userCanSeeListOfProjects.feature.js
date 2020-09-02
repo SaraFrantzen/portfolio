@@ -17,7 +17,7 @@ describe("User can see list of projects", () => {
         cy.get("#project-2").within(() => {
         cy.get(".image").should("exist");
         cy.get(".ui.header").should("contain", "UI Design");
-        cy.get(".description").should("contain", "Designins user interfaces is fun");
+        cy.get(".description").should("contain", "Designing user interfaces is fun");
     });
 });
 
