@@ -3,13 +3,13 @@ import React from "react";
 import UndrawMeditation from "react-undraw-illustrations/lib/components/UndrawMeditation";
 const Hello = () => {
   return (
-
     <div className="ui main container">
-      <h1 id="hello">Sara Lundkvist</h1>
       
+
       <div class="column">
-     <UndrawMeditation /> 
-  </div>
+        <img id="profile-img" src="./src/img/sara3.jpg" />
+        <h1 id="hello"> Attending the Craft Academy Bootcamp</h1>
+      </div>
     </div>
   );
 };
