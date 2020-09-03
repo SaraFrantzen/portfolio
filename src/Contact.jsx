@@ -13,7 +13,14 @@ const Contact = () => {
       <p>Fill in this form to send me a message. I will get back to you as soon as I read it!</p>
 
 
-     <form name="contact" method="POST" data-netlify="true">
+
+
+
+
+
+
+ <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field">
+ <input type="hidden" name="form-name" value="contact" />
   <p>
     <label id="name">Your Name: <input type="text" name="name" /></label>   
   </p>
@@ -29,6 +36,12 @@ const Contact = () => {
   </p>
 </form>
 
+
+
+
+
+
+      
 
     </div>
   );
