@@ -6,6 +6,7 @@ const Hello = () => {
 
     <div className="ui main container">
       <h1 id="hello">Sara Lundkvist</h1>
+      
       <div class="column">
      <UndrawMeditation /> 
   </div>

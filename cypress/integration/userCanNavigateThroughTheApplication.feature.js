@@ -47,17 +47,17 @@ describe("User can navigate the app", () => {
     });
   });
 
-  describe("to My Contacts tab and it", () => {
+  describe("to My Contact tab and it", () => {
     beforeEach(() => {
-      cy.get("#contacts-tab").click();
+      cy.get("#contact-tab").click();
     });
 
     it("displays My Contacts header", () => {
-      cy.get("#contacts-header").should("contain", "Contact");
+      cy.get("#contact-header").should("contain", "Contact Information");
     });
 
     it("displays component name in url", () => {
-      cy.url().should("contain, contact");
+      cy.url().should("contain", "contact");
     });
 
     it("does not display About Me Header", () => {
@@ -80,7 +80,7 @@ describe("User can navigate the app", () => {
     });
 
     it("displays Hello World", () => {
-      cy.get("#hello").should("contain", "Hello");
+      cy.get("#hello").should("contain", "Sara Lundkvist");
     });
 
     it("displays correct url", () => {
@@ -95,8 +95,8 @@ describe("User can navigate the app", () => {
       cy.get("#projects-header").should("not.exist");
     });
 
-    it("does not display Contacts header", () => {
-      cy.get("#contacts-header").should("not.exist");
+    it("does not display Contact header", () => {
+      cy.get("#contact-header").should("not.exist");
     });
   });
 });
