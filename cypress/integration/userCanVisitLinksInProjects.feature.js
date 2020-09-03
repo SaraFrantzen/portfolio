@@ -4,7 +4,11 @@ describe("User should be able to click on links in Projects", () => {
     cy.get("#projects-tab").click();
   });
 
-  it("can click on Github link", () => {
-    cy.get("#projects-header").should("contain", "My Projects");
+  it("can click on Github link in button", () => {
+    cy.get("#github").click();
+  });
+
+  it("can click on Webpage link in button", () => {
+    cy.get("#webpage").click();
   });
 });
