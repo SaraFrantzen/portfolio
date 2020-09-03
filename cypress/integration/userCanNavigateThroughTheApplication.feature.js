@@ -53,7 +53,7 @@ describe("User can navigate the app", () => {
     });
 
     it("displays My Contacts header", () => {
-      cy.get("#contact-header").should("contain", "Contact Information");
+      cy.get("#contact-header").should("contain", "Contact Me");
     });
 
     it("displays component name in url", () => {
