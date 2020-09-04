@@ -37,6 +37,7 @@ class Contact extends Component {
 
         
         <form name="contactForm" data-netlify="true" netlify onSubmit={this.handleSubmit}>
+        <input type="hidden" name="form-name" value="contact" /> 
           <p>
             <label>
               Your Name:{" "}
