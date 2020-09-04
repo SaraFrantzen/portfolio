@@ -1,0 +1,28 @@
+[{
+    "id": 6,
+    "company": "Craft Academy",
+    "url": "",
+    "image": "",
+    "description": "",
+    "time": "2020",
+    "title": ""
+  },
+  {
+    "id": 7,
+    "company": "Eleiko",
+    "url": "",
+    "image": "",
+    "description": "Personal Trainer, Strenght Coach, Powerlifting",
+    "time": "2015",
+    "title": ""
+  },
+  {
+    "id": 8,
+    "company": "Stockholm University, geochemical institution",
+    "url": "",
+    "image": "",
+    "description": "",
+    "time": "2012",
+    "title": "Quaternary geology and climate development,"
+  }
+]
