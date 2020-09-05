@@ -41,7 +41,7 @@ class Contact extends Component {
         {/* <input type="hidden" name="form-name" value="contact" />  */}
           <div class="two fields">
             <div class="field">
-            <label>
+            <label id="name">
                Name:{" "} </label>
               <input
                 type="text"
@@ -52,7 +52,7 @@ class Contact extends Component {
               />
            </div>
            <div class="field">
-            <label>
+            <label id="email">
                Email:{" "} </label>
               <input
                 type="email"
@@ -66,7 +66,7 @@ class Contact extends Component {
             </div>
 
             <div class="field">
-            <label>
+            <label id="message">
               Message:{" "}
               <textarea
                 name="message"
