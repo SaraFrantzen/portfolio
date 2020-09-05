@@ -66,26 +66,25 @@
   font-size: 60px;
   color: #331100;
 }
+body .ui.cards>.card{
+  box-shadow: none;
+  margin-inline-end: 40px;
+}
+
 
 #cv-card {
-  margin-top: 30px;
+  margin-top: 10px;
+  
 }
 #cv-button {
+  background-color: #993300;
   margin-bottom: 10px;
-  background-color: #b35900;
-  text-align: center;
-  border: #990099;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 15px;
-  cursor: pointer;
-  padding: 4px;
-  border-radius: 10%;
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
 }
 
 #cv-button:hover {
-  background-color: #ffa64d;
+  background-color: #990000;
 }
 
 .url,
@@ -98,6 +97,10 @@
 
 #cv-grid {
   margin-bottom: 300px;
+}
+
+#cv-time {
+  margin-bottom: 20px;
 }
 
 /* Contact */
