@@ -73,7 +73,8 @@ class CV extends Component {
         {/* <div className="ui stackable four column grid">
           {Eduacation.eduacationList}
         </div> */}
-        <p id="explained">Eduacation</p>
+        <p id="eduacation">Eduacation</p>
+        <p>LIST OF EDUACATIONS WILL BE PRESENTED</p>
       </div>
   
     );

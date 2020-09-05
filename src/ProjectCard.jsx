@@ -12,15 +12,24 @@ const ProjectCard = ({ project }) => {
           <div class="description">{project.description}</div>
 
           <a href={project.git} target="_blank">
-            <button type="button" id="github">
-              GitHub
-            </button>
-          </a>
+            
+            <div class="ui circular animated button" id="webpage" tabindex="0">
+              <div class="hidden content">GitHub</div>
+              <div class="visible content"><i class="big purple github icon"></i>    {" "}</div>
+              
+              </div> </a>
+
+
+
           <a href={project.web} target="_blank">
-            <button type="button" id="webpage">
-              WebPage
-            </button>
-          </a>
+
+          <div class="ui circular animated button" id="webpage" tabindex="0">
+              <div class="hidden content">Web Page</div>
+              <div class="visible content"><i class="big purple chrome icon"></i>    {" "}</div>
+              
+              </div> </a>
+
+           
         </div>
       </div>
     </>
