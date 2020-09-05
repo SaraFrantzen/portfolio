@@ -9,14 +9,14 @@ describe("User can navigate the app", () => {
     });
 
     it("displays Cv Header", () => {
-      cy.get("#cv-header).should("contain", "CV");
+      cy.get("#cv-header").should("contain", "Curriculum vitae");
     });
 
     it("displays component name in url", () => {
       cy.url().should("contain", "cv");
     });
 
-    it("does not display my Projects header", () => {
+    it("does not display Projects header", () => {
       cy.get("#projects-header").should("not.exist");
     });
 
@@ -31,7 +31,7 @@ describe("User can navigate the app", () => {
     });
 
     it("displays My Projects header", () => {
-      cy.get("#projects-header").should("contain", "My Projects");
+      cy.get("#projects-header").should("contain", "Web Development");
     });
 
     it("displays component name in url", () => {
@@ -39,7 +39,7 @@ describe("User can navigate the app", () => {
     });
 
     it("does not display Cv Header", () => {
-      cy.get("#cv-header).should("not.exist");
+      cy.get("#cv-header").should("not.exist");
     });
 
     it("does not display Hello World", () => {
@@ -61,7 +61,7 @@ describe("User can navigate the app", () => {
     });
 
     it("does not display Cv Header", () => {
-      cy.get("#cv-header).should("not.exist");
+      cy.get("#cv-header").should("not.exist");
     });
 
     it("does not display Hello World", () => {
@@ -88,7 +88,7 @@ describe("User can navigate the app", () => {
     });
 
     it("does not display Cv header", () => {
-      cy.get("#cv-header).should("not.exist");
+      cy.get("#cv-header").should("not.exist");
     });
 
     it("does not display My Projects header", () => {

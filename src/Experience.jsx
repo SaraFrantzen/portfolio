@@ -1,6 +1,9 @@
 import React from "react";
 import CV from "./Cv";
 
+/* temporarly made to be able to display both CV.json and eduacationlist.json, there is 
+EXPERIENCE in navbar (made for test around)thats commented out - delete when done! */
+
 const Experience = () => {
     
     return (
