@@ -5,7 +5,7 @@
     "url": "https://www.apollo.se/resor/traningsresor",
     "image": "./src/img/apollo.png",
     "description": "Been working as a Sports instructor / yogateacher for Apollo Sports in Greece (Rhodes, Crete & Zakhyntoz), Turkey and Egypt",
-    "time": "2018, 2019",
+    "time": "2018 - 2019",
     "title": "Sports Instructor / Yoga teacher"
   },
   {
@@ -14,7 +14,7 @@
     "url": "http://www.formgotland.se",
     "image": "./src/img/form.jpg",
     "description": "Personal Trainer at the largest gym of Gotland, I also ran a strength club as an association",
-    "time": "2014-2017",
+    "time": "2014 - 2017",
     "title": "Personal Trainer"
   },
   {
@@ -33,7 +33,7 @@
     "url": "",
     "image": "./src/img/colorez.jpg",
     "description": "Colorez is a former street-style clothing shop that was located in Stockholm",
-    "time": "2009-2010",
+    "time": "2009 - 2010",
     "title": "Store manager"
   },
 
@@ -54,7 +54,7 @@
     "image": "",
     "description": "I prepped and analyzed samples for further research",
     "time": "2007",
-    "title": "Geologist"
+    "title": "Lab Assistant"
   }
 
 ]

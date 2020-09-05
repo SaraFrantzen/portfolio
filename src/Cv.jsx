@@ -58,7 +58,7 @@ class CV extends Component {
             Last couples of years I've been living abroad,
             and I have been thinking more and more about that software
             development would be a field that should suit me. So I moved back to
-            Sweden and started Craft Academy Bootcamp to become a full-stack
+            Sweden and started the Craft Academy Bootcamp to become a full stack web
             developer. The feeling I have is that I finally have found inner
             peace. This is me, I am a developer.
           </p>
@@ -71,6 +71,7 @@ class CV extends Component {
         <div className="ui stackable four column grid" id="cv-grid">
           {resume}
         </div>
+
         <div className="ui stackable four column grid">
           {Eduacation.eduacationList}
         </div>

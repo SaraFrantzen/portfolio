@@ -9,6 +9,9 @@ const Header = () => {
           Sara Lundkvist
         </Link>
 
+
+        
+
         <div className="right menu">
           <NavLink
             id="cv-tab"
@@ -17,6 +20,15 @@ const Header = () => {
             to="/cv"
           >
             CV
+          </NavLink>
+
+          <NavLink
+            id="experience-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/Experience"
+          >
+            EXPERIENCE
           </NavLink>
           
           <NavLink
