@@ -16,16 +16,16 @@ describe("User can see list of projects", () => {
     it("displays second project", () => {
         cy.get("#project-2").within(() => {
         cy.get(".image").should("exist");
-        cy.get(".ui.header").should("contain", "UI Design");
-        cy.get(".description").should("contain", "Designing user interfaces is fun");
+        cy.get(".ui.header").should("contain", "BMI Calculator");
+        cy.get(".description").should("contain", "As a personal trainer,");
     });
 });
 
     it("displays third project", () => {
         cy.get("#project-3").within(() => {
             cy.get(".image").should("exist");
-            cy.get(".ui.header").should("contain", "Mobile UX");
-            cy.get(".description").should("contain", "I like to design for the mobile platform");
+            cy.get(".ui.header").should("contain", "Adress Book");
+            cy.get(".description").should("contain", "A simple adress book");
 
         });
     });
