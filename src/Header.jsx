@@ -22,14 +22,14 @@ const Header = () => {
             CV
           </NavLink>
 
-          {/* <NavLink
+          <NavLink
             id="experience-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
-            to="/Experience"
+            to="/Eduacation"
           >
-            EXPERIENCE
-          </NavLink> */}
+            Eduacation
+          </NavLink>
           
           <NavLink
             id="projects-tab"
