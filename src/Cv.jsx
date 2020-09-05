@@ -1,7 +1,7 @@
 import axios from "axios";
 import Resume from "./Resume";
 import React, { Component } from "react";
-import Eduacation from "./Eduacation";
+/* import Eduacation from "./Eduacations"; */
 
 class CV extends Component {
   state = {
@@ -64,21 +64,25 @@ class CV extends Component {
           </p>
           <p id="explained">Working Experience</p>
         </div>
-        <div class="ui stackable two column grid">
-          <div class="column"></div>
-        </div>
+        
 
         <div className="ui stackable four column grid" id="cv-grid">
           {resume}
         </div>
 
-        <div className="ui stackable four column grid">
+        {/* <div className="ui stackable four column grid">
           {Eduacation.eduacationList}
-        </div>
+        </div> */}
+        <p id="explained">Eduacation</p>
       </div>
-      /*   display cv - fil*/
+  
     );
   }
 }
 
+
 export default CV;
+
+
+
+
