@@ -13,7 +13,7 @@ const Footer = () => {
             <i class="linkedin large icon"></i>{" "}
           </a>{" "}
           | Sara Lundkvist 2020 |{" "}
-          <a id="footer-url" href="https://github.com/Saralundkvist86">
+          <a id="footer-url" href="https://github.com/Saralundkvist86" target="_blank">
             <i class="github large icon"></i>{" "}
           </a>
         </p>
