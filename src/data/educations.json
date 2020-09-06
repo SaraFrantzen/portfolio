@@ -6,7 +6,6 @@
     "time": "2020",
     "title": "Full stack Developer"
   },
-
   {
     "id": 2,
     "name": "Eleiko",
@@ -14,12 +13,11 @@
     "time": "2015",
     "title": "PT"
   },
-
   {
     "id": 3,
     "name": "Stockholm University, geochemical institution",
     "description": "geo geek",
     "time": "2012",
-    "title": "Quaternary geology and climate development,"
+    "title": "Quaternary geology and climate development"
   }
 ]

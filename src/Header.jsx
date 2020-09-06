@@ -9,9 +9,6 @@ const Header = () => {
           Sara Lundkvist
         </Link>
 
-
-        
-
         <div className="right menu">
           <NavLink
             id="cv-tab"
@@ -23,31 +20,31 @@ const Header = () => {
           </NavLink>
 
           <NavLink
-            id="experience-tab"
+            id="educations-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
-            to="/Eduacation"
+            to="/educations"
           >
-            Eduacation
+            Educations
           </NavLink>
-          
+
           <NavLink
             id="projects-tab"
             className="ui item"
             activeStyle={{ fontWeight: "bold" }}
-            to="/projects">
+            to="/projects"
+          >
             Projects
           </NavLink>
 
-
           <NavLink
-              id="contact-tab"
-              className="ui item"
-              activeStyle={{ fontWeight: "bold" }}
-              to="/contact">
-          Contact
-              </NavLink>
-              
+            id="contact-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/contact"
+          >
+            Contact
+          </NavLink>
         </div>
       </div>
     </nav>

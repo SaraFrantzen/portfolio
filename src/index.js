@@ -6,7 +6,7 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import Cv from "./Cv";
 import Contact from "./Contact";
-import Eduacations from "./Eduacations";
+import Educations from "./Educations";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 const App = () => {
@@ -16,9 +16,10 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={Hello}></Route>
         <Route exact path="/cv" component={Cv}></Route>
+        <Route exact path="/educations" component={Educations}></Route>
         <Route exact path="/projects" component={Projects}></Route>
         <Route exact path="/contact" component={Contact}></Route>
-        <Route exact path="/eduacations" component={Eduacations}></Route>
+       
       </Switch>
       <Footer />
     </>
