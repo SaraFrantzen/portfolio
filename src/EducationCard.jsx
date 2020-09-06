@@ -5,8 +5,8 @@ const EducationCard = ({ education }) => {
     <>
       <div class="ui main container">
         <div class="column">
-          <div class="ui tiny image" id="education-img">
-            <img src={education.image}></img>
+          <div class="ui small left floated image" id="education-img">
+          <a href={education.web} target="_blank"><img src={education.image}></img></a>
           </div>
         </div>
         <div class="column">
