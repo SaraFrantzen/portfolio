@@ -1,5 +1,5 @@
-##My Portfolio
-#By Sara Lundkvist 2020
+## My Portfolio
+# By Sara Lundkvist 2020
 
 
 Made in React designed with Semantic-ui
