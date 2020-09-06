@@ -34,15 +34,18 @@ class Contact extends Component {
           Fill in this form to send me a message. I will get back to you as soon
           as I read it!
         </p>
-      
-        
-        <div class ="ui form" name="contactForm" data-netlify="true" netlify onSubmit={this.handleSubmit}>
-        
-        {/* <input type="hidden" name="form-name" value="contact" />  */}
+
+        <div
+          class="ui form"
+          name="contactForm"
+          data-netlify="true"
+          netlify
+          onSubmit={this.handleSubmit}
+        >
+          {/* <input type="hidden" name="form-name" value="contact" />  */}
           <div class="two fields">
             <div class="field">
-            <label id="name">
-               Name:{" "} </label>
+              <label id="name">Name: </label>
               <input
                 type="text"
                 name="name"
@@ -50,10 +53,9 @@ class Contact extends Component {
                 onChange={this.handleChange}
                 placeholder="Your Name"
               />
-           </div>
-           <div class="field">
-            <label id="email">
-               Email:{" "} </label>
+            </div>
+            <div class="field">
+              <label id="email">Email: </label>
               <input
                 type="email"
                 name="email"
@@ -61,11 +63,10 @@ class Contact extends Component {
                 onChange={this.handleChange}
                 placeholder="Your Email"
               />
-           
             </div>
-            </div>
+          </div>
 
-            <div class="field">
+          <div class="field">
             <label id="message">
               Message:{" "}
               <textarea
@@ -75,19 +76,21 @@ class Contact extends Component {
                 placeholder="message"
               />
             </label>
-            </div>
-         
-            <div class="ui animated button" type="submit" id="contact-button" tabindex="0">
-                    <div class=" visible content">Send</div>
-                    <div class="hidden content">
-                     <i class="purple envelope outline icon"></i>
-                   </div>
-                   </div>
+          </div>
 
-        
-         </div>
-         </div>
-    
+          <div
+            class="ui animated button"
+            type="submit"
+            id="contact-button"
+            tabindex="0"
+          >
+            <div class=" visible content">Send</div>
+            <div class="hidden content">
+              <i class="purple envelope outline icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
     );
   }
 }
