@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { Component } from "react";
-/* import EducationCard from "./EducationCard"; */
+import EducationCard from "./EducationCard";
 
 class Educations extends Component {
   state = {
@@ -30,11 +30,7 @@ class Educations extends Component {
 
     return (
       <div className="ui main container">
-        <h1 id="educations-header" className="ui header">
-          My Educations
-        </h1>
-
-        <div className="ui stackable four column grid" id="education-grid">
+        <div className="ui stackable three column grid" id="education-grid">
           {educationsList}
         </div>
       </div>
