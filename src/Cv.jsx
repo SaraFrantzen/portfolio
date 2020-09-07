@@ -55,7 +55,7 @@ class CV extends Component {
             thinking more and more about that software development would be a
             field that should suit me. So I moved back to Sweden and started the
             Craft Academy Bootcamp to become a full stack web developer. The
-            feeling I have is that I finally have found inner peace. This is me,
+            feeling I have now is that I finally have found inner peace. This is me,
             I am a developer.
           </p>
           <p id="cv-header">Working Experience</p>
