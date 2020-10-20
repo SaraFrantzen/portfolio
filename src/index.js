@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Hello from "./Hello";
-import Header from "./Header";
-import Footer from "./Footer";
-import Projects from "./Projects";
-import Cv from "./Cv";
-import Contact from "./Contact";
-import Educations from "./Educations";
+import Hello from "./components/Hello";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Projects from "./components/Projects";
+import Cv from "./components/Cv";
+import Contact from "./components/Contact";
+import Educations from "./components/Educations";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 const App = () => {
