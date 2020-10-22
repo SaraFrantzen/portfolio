@@ -45,6 +45,14 @@ const Header = () => {
           >
             Contact
           </NavLink>
+          <NavLink
+            id="insta-tab"
+            className="ui item"
+            activeStyle={{ fontWeight: "bold" }}
+            to="/instagram"
+          >
+            Instagram
+          </NavLink>
         </div>
       </div>
     </nav>

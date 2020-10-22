@@ -7,6 +7,7 @@ import Projects from "./components/Projects";
 import Cv from "./components/Cv";
 import Contact from "./components/Contact";
 import Educations from "./components/Educations";
+import Instagram from "./components/Instagram";
 import { Switch, Route, BrowserRouter } from "react-router-dom";
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
         <Route exact path="/educations" component={Educations}></Route>
         <Route exact path="/projects" component={Projects}></Route>
         <Route exact path="/contact" component={Contact}></Route>
+        <Route exact path="/instagram" component={Instagram}></Route>
       </Switch>
       <Footer />
     </>
